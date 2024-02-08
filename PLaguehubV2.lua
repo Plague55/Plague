@@ -33,7 +33,8 @@ function usecodes()
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2HotSauceHan")
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("ToadBoi120k")
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Shutdown")
-    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Fixes")	
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Fixes")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Mejonson10000")
 end
 
 
