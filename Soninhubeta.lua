@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Sonin Hub", HidePremium = false, SaveConfig = true,IntroTexT = "Sonin Hub", ConfigFolder = "Plagueconfig"})
+local Window = OrionLib:MakeWindow({Name = "Sonin Hub", HidePremium = false, SaveConfig = true,IntroTexT = "Sonin Hub", ConfigFolder = "Soninconfig"})
 
 
 -- Functions
@@ -89,8 +89,8 @@ MainTab:AddButton({
         newCode:MakePopup()
         newCode.FocusLost:Connect(function()
             addCode(newCode.Text)
-        end)
-    end    
+     end
+        
 })
 
 end
