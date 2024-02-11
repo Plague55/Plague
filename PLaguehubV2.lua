@@ -2,7 +2,7 @@
 if game.PlaceId == 12886143095 then
 
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-    local Window = OrionLib:MakeWindow({Name = "Plague Hub", HidePremium = false, SaveConfig = true,IntroTexT = "Plague Hub", ConfigFolder = "Plagueconfig"})
+    local Window = OrionLib:MakeWindow({Name = "Sonin Hub", HidePremium = false, SaveConfig = true,IntroTexT = "Sonin Hub", ConfigFolder = "Plagueconfig"})
     
     --Values
     
