@@ -11,43 +11,33 @@ function summon2()
     game:GetService("ReplicatedStorage").Remotes.Summon:InvokeServer("10","2")
 end
 
-function usecodes()
-    for i, code in ipairs(codes) do
-        game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer(code)
-    end
-end
-
 function addCode(newCode)
     table.insert(codes, newCode)
 end
 
 
 --Values
-local codes = {
-    "BlamTopSecretCodeWontWorkIfNotSubbed",
-    "GoalReached",
-    "TyFor1mVisitsPart2",
-    "TyFor1mVisitsPart1",
-    "D1SGUISED",
-    "YammoRework",
-    "TyFor10kFavREAL",
-    "NeelsTV",
-    "FinalDelay",
-    "RELEASE",
-    "SorryForDelay",
-    "Sub2KingLuffy",
-    "Sub2CodeNex77k",
-    "Sub2Blamspot524k",
-    "Sub2HotSauceHan",
-    "ToadBoi120k",
-    "Shutdown",
-    "Fixes",
-    "Mejonson10000",
-    "BlamsSecret1MilionUniquePlayerCode",
-    "Update1TrailerHYPE",
-    "BlamsAndShocksNightmare100kMemberReRollCodeTrySubscribingToBlamSpotOnYTAndFollowingFr_ShockOnTwitterIfItDoesntWork"
-}
-
+function usecodes()
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("BlamTopSecretCodeWontWorkIfNotSubbed")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("GoalReached")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("TyFor1mVisitsPart2")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("TyFor1mVisitsPart1")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("D1SGUISED")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("YammoRework")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("TyFor10kFavREAL")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("NeelsTV")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("FinalDelay")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("RELEASE")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("SorryForDelay")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2KingLuffy")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2CodeNex77k")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2Blamspot524k")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2HotSauceHan")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("ToadBoi120k")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Shutdown")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("BlamTopSecretCodeWontWorkIfNotSubbed")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Update1TrailerHYPE")
+end
 
 
 --Tabs
