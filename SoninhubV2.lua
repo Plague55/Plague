@@ -35,6 +35,10 @@ function usecodes()
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Shutdown")
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("BlamTopSecretCodeWontWorkIfNotSubbed")
     game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Update1TrailerHYPE")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2Noclypso176")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("ALSUpdateIsCooking")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("Sub2ZerozKinger1MilSubs")
+    game:GetService("ReplicatedStorage").Remotes.ClaimCode:InvokeServer("HanminloveSecretCodeMustBeSubbedToWork")
 end
 
 
